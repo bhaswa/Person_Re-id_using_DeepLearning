@@ -1,15 +1,15 @@
 ##Recurrent Convolutional Network for Video-based Person Re-Identification
 
-Code for our CVPR 2016 paper that performs video re-identification.
+Code for our ICIP 2018 paper that performs video re-identification.
 
 If you use this code please cite:
 
 ```
 @inproceedings{mclaughlinrecurrent,
-  	title={Recurrent Convolutional Network for Video-based Person Re-Identification},
-  	author={McLaughlin, N and Martinez del Rincon, J and Miller, P},
-  	booktitle={CVPR},
-  	year={2016}
+  	title={Video based Person Re-identification by Re-ranking Attentive Temporal information in Deep Recurrent Convolutional Networks},
+  	author={Bhaswati Saha, K. Sai. Ram, Jayanata Mukhopadhyay, Aditi Roy, Anchit Navelkar},
+  	booktitle={ICIP},
+  	year={2018}
 }
 ```
 

@@ -1,17 +1,4 @@
-##Recurrent Convolutional Network for Video-based Person Re-Identification
-
-Code for our ICIP 2018 paper that performs video re-identification.
-
-If you use this code please cite:
-
-```
-@inproceedings{mclaughlinrecurrent,
-  	title={Video based Person Re-identification by Re-ranking Attentive Temporal information in Deep Recurrent Convolutional Networks},
-  	author={Bhaswati Saha, K. Sai. Ram, Jayanata Mukhopadhyay, Aditi Roy, Anchit Navelkar},
-  	booktitle={ICIP},
-  	year={2018}
-}
-```
+##VIDEO BASED PERSON RE-IDENTIFICATION BY RE-RANKING ATTENTIVE TEMPORAL INFORMATION IN DEEP RECURRENT CONVOLUTIONAL NETWORKS
 
 ##Summary
 We perform video re-identification by taking a sequence of images and training a neural network to produce a single feature that represents the whole sequence. The feature vectors for different sequences are compared using Euclidean distance. The distance matrix is passed through reranking method which produces Jaccard dissimilarity. Final distance is computed as a linear combination of Euclidean distance and Jaccard dissimilarity. A smaller distance indicates increased similarity between sequences. The sequence feature is produced using attention temporal pooling which includes the mutual influence of both the video sequences in the context of matching.
